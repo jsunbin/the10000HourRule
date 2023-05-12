@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'OTEnjoystoriesBA';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GmarketSansBold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GmarketSansMedium';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+	url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+	url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+:root {
+  --main-color: #5B2386;
+  --main-font-color: #fff;
+}
+
+#root {
+  font-family: GmarketSansMedium;
+  color: var(--main-font-color);
+  background-color: var(--main-color);
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* header 스타일 시작 */
+header {
+  margin-bottom: 100px;
+}
+
+header .title {
+  max-width: 564px;
+  min-height: 224px;
+  margin: auto;
+
+  background: url("../img/clock.png")  center/224px no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .title img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+header .quote {
+  font-family: OTEnjoystoriesBA;
+  font-size: 36px;
+  font-weight: 700;
+  color: #F5DF4D;
+  margin: 66px 0 78px;
+}
+
+header .explain {
+  /* position, max-width, margin: 따옴표 가상요소로 넣기 위해서 */
+  /* position: relative;
+  max-width: 500px; */
+  margin: auto;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+header .explain strong {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 따옴표 */
+/* 방벙1) 하나의 이미지로 bg-img로 */
+header .explain {
+  background: url("../img/quotes.png") center no-repeat;
+}
+
+/* 방벙2) 2개의 이미지로 하나씩 가상요소로 적용하기 */
+
+/* header .explain::before,
+header .explain::after {
+  position: absolute;
+  content: '';
+  top: 40%;
+  width: 37px;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+header .explain::before {
+  background-image: url("../img/txt-left.png");
+  left: 0;
+
+}
+header .explain::after {
+  background-image: url("../img/txt-right.png");
+  right: 0;
+}  */
+
+/* header 스타일 끝 */
+
+/* main 스타일 시작 */
+
+
+
+/* main 스타일 끝 */
