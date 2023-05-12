@@ -20,7 +20,7 @@ function App() {
       <Header />
       <Main modalOpen={modalOpen} />
       <Footer />
-      {modalShow && <Modal />}
+      {modalShow && <Modal modalClose={modalClose} />}
     </>
   );
 }
