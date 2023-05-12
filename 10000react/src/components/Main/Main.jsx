@@ -3,7 +3,7 @@ import { useTransition } from "react";
 import { useState } from "react";
 import "./Main.css";
 
-export default function Main() {
+export default function Main(props) {
   // 1. 전문가 입력값 -> 상태관리
   // 2. 훈련 시간 입력값 -> 상태관리
   // 3. 실행 버튼 클릭 시, result 보여주기
@@ -50,7 +50,7 @@ export default function Main() {
         </p>
 
         <div className="result-btns">
-          <button type="button" className="btn-go">
+          <button type="button" className="btn-go" onClick={props.modalOpen}>
             훈련하러 가기 GO!GO!
           </button>
           <button type="button" className="btn-share">

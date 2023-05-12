@@ -1,7 +1,7 @@
 /* modal 스타일 시작 */
 #modal {
   display: flex;
-  display: none;
+  /* display: none; */
   justify-content: center;
   align-items: center;
   font-family: OTEnjoystoriesBA;
