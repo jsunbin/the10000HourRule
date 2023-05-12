@@ -116,6 +116,10 @@ header .explain::after {
 /* header 스타일 끝 */
 
 /* main 스타일 시작 */
+main {
+  margin: 100px auto 130px;
+}
+
 main .inputs p {
   font-size: 24px;
   line-height: 24px;
@@ -140,7 +144,7 @@ main .inputs .btn-run {
 }
 
 main .result {
-  margin: 130px 0;
+  margin-top: 130px;
 }
 
 main .result .result-expert,
@@ -167,3 +171,19 @@ main .result .result-btns {
 }
 
 /* main 스타일 끝 */
+
+/* footer 스타일 시작 */
+footer {
+  font-family: Noto Sans KR;
+  margin-top: 130px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+footer img {
+  width: 125px;
+  margin: 0 auto 20px;
+  vertical-align: top;
+}
+
+/* footer 스타일 끝 */
