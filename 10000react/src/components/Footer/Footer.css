@@ -1,0 +1,15 @@
+/* footer 스타일 시작 */
+footer {
+  font-family: Noto Sans KR;
+  margin-top: 130px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+footer img {
+  width: 125px;
+  margin: 0 auto 20px;
+  vertical-align: top;
+}
+
+/* footer 스타일 끝 */

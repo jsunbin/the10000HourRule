@@ -1,0 +1,56 @@
+/* main 스타일 시작 */
+main {
+  margin: 100px auto 130px;
+}
+
+main .inputs p {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+main .inputs input {
+  max-width: 224px;
+  font-size: 24px;
+  align-items: center;
+  margin: 0 17px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 7px;
+}
+
+main .inputs .input-expert {
+  margin-bottom: 27px;
+}
+
+main .inputs .btn-run {
+  margin-top: 115px;
+}
+
+main .result {
+  margin-top: 130px;
+}
+
+main .result .result-expert,
+main .result .result-hour {
+  font-size: 24px;
+  line-height: 72px;
+}
+main .result .result-expert {
+  margin-bottom: 17px;
+}
+main .result strong {
+  font-family: GmarketSansBold;
+  font-size: 72px;
+  margin: 0 17px;
+  vertical-align: middle;
+}
+
+main .result .result-btns {
+  margin-top: 150px 
+}
+.result .result-btns .btn-share {
+  background: #fff;;
+  margin-left: 20px;
+}
+
+/* main 스타일 끝 */
