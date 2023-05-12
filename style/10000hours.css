@@ -187,3 +187,39 @@ footer img {
 }
 
 /* footer 스타일 끝 */
+
+/* modal 스타일 시작 */
+#modal {
+  display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-family: OTEnjoystoriesBA;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#modal .modal-inner {
+  padding: 60px 100px ;
+  color: var(--main-color);
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: inset 0 0 10px #eee;
+  
+}
+#modal .modal-inner h2 {
+  font-size: 96px;
+  margin-bottom: 4px;
+}
+#modal .modal-inner h3 {
+  font-size: 36px;
+}
+#modal .modal-inner img {
+  max-width: 433px;
+  margin: 30px auto;
+}
+/* modal 스타일 끝 */
