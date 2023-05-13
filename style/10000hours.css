@@ -147,6 +147,25 @@ main .result {
   margin-top: 130px;
 }
 
+main .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .loading .loading-inner {
+  width: 225px;
+}
+main .loading .loading-inner img {
+  width: 100%;
+  animation: rotate 2s linear infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 main .result .result-expert,
 main .result .result-hour {
   font-size: 24px;
